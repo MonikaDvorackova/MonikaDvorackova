@@ -19,8 +19,8 @@ These are separate engineering and research tracks, not one integrated product. 
 | --- | --- |
 | [Agent Reliability Bench](https://github.com/MonikaDvorackova/agent-reliability-bench) | Deterministic tool-trace protocol evaluation with batch reports; a reference benchmark, not a live-agent reliability certification. |
 | [Formal AI Verification](https://github.com/MonikaDvorackova/formal-ai-verification) | Rust policy predicates and SMT counterexample checks; proofs are limited to the supplied Boolean model. |
-| [Latent Dynamics Bench](https://github.com/MonikaDvorackova/latent-dynamics-bench) | Transparent linear transition baseline with rollout-error reporting; no neural latent encoder or real-world validation. |
-| [Model-Based Evaluation Suite](https://github.com/MonikaDvorackova/model-based-eval-suite) | Compares predicted and environment returns to expose model exploitation in a toy environment. |
+| [Latent Dynamics Bench](https://github.com/MonikaDvorackova/latent-dynamics-bench) | Multi-seed ridge-linear rollout benchmark with persistence baseline and per-seed RMSE; no neural latent encoder or real-world validation. |
+| [Model-Based Evaluation Suite](https://github.com/MonikaDvorackova/model-based-eval-suite) | Multi-seed predicted/actual return and transition-error report; can emit an AIGov Core evaluation event. Synthetic policies and dynamics only. |
 | [Causal ML Benchmarks](https://github.com/MonikaDvorackova/causal-ml-benchmarks) | Stratified backdoor adjustment on synthetic data; assumptions are documented in the repository. |
 | [ML Systems Engineering](https://github.com/MonikaDvorackova/ml-systems-engineering) | C++ reference GEMM and illustrative microbenchmark; not a BLAS performance claim. |
 
