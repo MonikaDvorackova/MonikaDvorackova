@@ -1,47 +1,36 @@
 # Monika Dvořáčková
 
-AI/ML Engineer · NLP · MLOps · AI Governance
+**Senior AI/ML Engineer · AI Governance · Trustworthy AI · World Models**
 
-I build machine-learning systems with an emphasis on reliability, traceability, and practical governance. My work spans Python-based ML engineering, production workflows, and the technical implementation of AI accountability.
+I design and evaluate machine-learning systems with a focus on reliability, traceability, and accountable deployment. My work connects production ML engineering with technical AI governance and research on model-based systems.
 
-## Focus
+## Areas of work
 
-- **ML engineering:** Python, model evaluation, APIs, testing, deployment, and MLOps.
-- **AI governance engineering:** audit trails, evidence collection, policy gates, and reproducible verification.
-- **Research and writing:** reliable ML pipelines, AI governance, and the relationship between model outputs and decisions.
+- **AI governance engineering:** evidence capture, policy-gated workflows, auditability, and reproducible verification.
+- **Trustworthy AI:** evaluation, reliability, causal analysis, uncertainty, and robustness.
+- **World models:** state-space identification, latent dynamics, and multi-step rollout evaluation.
+- **ML systems:** Python services, testing, deployment, and operational workflows.
 
-## Selected work
+## Selected open-source contributions
 
-- **[AIGov Compliance Engine](https://github.com/MonikaDvorackova/aigov-compliance-engine)** — engineering work on auditable AI/ML workflows and evidence verification.
-- **[CPython contribution](https://github.com/python/cpython/pull/160980)** — `fnmatch` / PathLike contribution (pull request; see GitHub for current status).
-- **[Matplotlib contribution](https://github.com/matplotlib/matplotlib/pull/32575)** — `FixedLocator` handling of non-finite values (pull request; see GitHub for current status).
-- **[SciPy contribution](https://github.com/scipy/scipy/pull/26588)** — DIA sparse-format documentation (pull request; see GitHub for current status).
-- **[neuralforecast contribution](https://github.com/Nixtla/neuralforecast/pull/1734)** — contribution and maintainer discussion (pull request; see GitHub for current status).
+- **[Matplotlib #32575](https://github.com/matplotlib/matplotlib/pull/32575)** — merged fix for non-finite tick locations in `FixedLocator`.
+- **[CPython #160980](https://github.com/python/cpython/pull/160980)** — open contribution adding PathLike support to `fnmatch.filter()` and `filterfalse()`.
+- **[SciPy #26592](https://github.com/scipy/scipy/pull/26592)** — open documentation contribution clarifying DIA sparse-format indexing. (Issue #26588.)
+- **[neuralforecast #1734](https://github.com/Nixtla/neuralforecast/pull/1734)** — open fix for zero and near-zero affine weights in RevIN denormalization.
 
-These links point to contributions, not a claim that every pull request has been merged.
+## Selected projects
 
-## Research engineering projects
-
-Six public, testable reference implementations focused on **trustworthy AI, world models, and reliable ML systems**:
-
-| Project | Technical focus |
+| Project | What it explores |
 | --- | --- |
-| [Agent Reliability Bench](https://github.com/MonikaDvorackova/agent-reliability-bench) | Agent tool-trace evaluation, batch JSONL reports, confidence intervals; [live demo](https://monikadvorackova.github.io/agent-reliability-bench/) |
+| [Agent Reliability Bench](https://github.com/MonikaDvorackova/agent-reliability-bench) | Evaluation of agent tool traces, batch reports, and confidence intervals; [live demo](https://monikadvorackova.github.io/agent-reliability-bench/) |
 | [World Models Lab](https://github.com/MonikaDvorackova/world-models-lab) | State-space identification and multi-step rollout baselines |
-| [Formal AI Verification](https://github.com/MonikaDvorackova/formal-ai-verification) | Rust approval gates, temporal monitoring, SMT verification |
-| [Causal ML Benchmarks](https://github.com/MonikaDvorackova/causal-ml-benchmarks) | Stratified causal effects, propensity weighting, bootstrap intervals |
+| [Formal AI Verification](https://github.com/MonikaDvorackova/formal-ai-verification) | Policy approval gates, temporal monitoring, and SMT-based verification |
+| [Causal ML Benchmarks](https://github.com/MonikaDvorackova/causal-ml-benchmarks) | Causal effect estimation, propensity weighting, and bootstrap intervals |
 | [Neurosymbolic Reasoning](https://github.com/MonikaDvorackova/neurosymbolic-reasoning) | Horn-rule inference with derivation provenance |
-| [ML Systems Engineering](https://github.com/MonikaDvorackova/ml-systems-engineering) | Reference and blocked C++ matrix kernels |
-
-[Browse the research project showcase](https://monikadvorackova.net/research-projects).
+| [ML Systems Engineering](https://github.com/MonikaDvorackova/ml-systems-engineering) | C++ matrix-kernel implementations and benchmarks |
 
 These are reproducible engineering baselines; they are not presented as peer-reviewed breakthroughs or production-certified systems.
 
-## Research and publications
+## Research and writing
 
-My current interests include reliable machine-learning pipelines, auditability of AI systems, and technical AI governance. For published work and ongoing projects, see my [website](https://monikadvorackova.net).
-
-## Links
-
-- [Website](https://monikadvorackova.net)
-- [GitHub projects](https://github.com/MonikaDvorackova)
+My interests include reliable machine-learning pipelines, technical AI governance, and the relationship between model behavior and real-world decisions. For publications and background, see my [website](https://monikadvorackova.net).
